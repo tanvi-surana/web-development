@@ -1,0 +1,63 @@
+//This has random backdround 
+body, h1, ul, li {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	background:url(images/bg-texture.jpg);
+}
+
+#container {
+	width: 1095px; margin: -40px auto;
+	position: relative;
+}
+
+h1 {
+	//width: 262px;
+	//height: 226px; 
+	margin: 0 auto; 
+	position: relative; 
+	top: 100px;
+	text-align: center;
+	//text-indent: -9999px; 
+	z-index: 10;
+	//background: url();A logo can be added.Then the text-indent,width,height needs to be added 
+} 
+ 	 
+#slideshow {
+	width: 1083px;
+	height: 518px;
+	padding: 15px 0 0 12px;
+	overflow: scroll; // Allows the slides to be viewed using scrollbar if Javascript isn't available  
+	position: relative; z-index: 5;
+}
+#prev
+{
+	background: url(images/prev.png);
+	z-index: 15;
+	position: relative;
+	width: 80px;
+	height: 80px;
+	text-indent: -9999px;
+	margin: 0px auto;
+	top: 200px;
+	float: left;
+} 
+#next
+{
+	background: url(images/next.png);
+	z-index: 15;
+	position: relative;
+	width: 80px;
+	height: 80px;
+	text-indent: -9999px;
+	margin: 0px auto;
+	top: 200px;
+	//float: right;
+	left: 450px;
+} 
+img
+{
+	width: 1053px;
+	height: 500px;
+}
